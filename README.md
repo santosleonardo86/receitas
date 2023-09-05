@@ -1,3 +1,3 @@
 # Receitas
 
-## Site de receitas feito no The Odin Project
+## Site de receitas feito para o The Odin Project
