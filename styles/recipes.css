@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 20px 0;
+}
+
+hr {
+  margin: 12px 0;
+}
+
+.receita, .ingredientes, .preparo {
+  padding: 10px 0;
+}
+
+.receita {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.receita img {
+  min-width: 330px;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.receita p {
+  min-width: 400px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.ingredientes, .preparo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, li {
+  text-align: center;
+  margin: 0 auto;
+  /* width: 80%; */
+  padding: 0.25rem;
+}
+
+
+li {
+  text-align: justify;
+}
+
+ul, ol {
+  min-width: 350px;
+  width: 30%;
+  padding-left: 0;
+}
+
+.voltar {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.voltar button {
+  cursor: pointer;
+}
+
